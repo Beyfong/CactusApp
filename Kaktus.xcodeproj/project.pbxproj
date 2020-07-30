@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		6D57418424D00CBC0032D5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57418324D00CBC0032D5CC /* AppDelegate.swift */; };
-		6D57418624D00CBC0032D5CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57418524D00CBC0032D5CC /* SceneDelegate.swift */; };
-		6D57418824D00CBC0032D5CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57418724D00CBC0032D5CC /* ViewController.swift */; };
+		6D57418824D00CBC0032D5CC /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57418724D00CBC0032D5CC /* SessionViewController.swift */; };
 		6D57418B24D00CBC0032D5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D57418924D00CBC0032D5CC /* Main.storyboard */; };
 		6D57418D24D00CBE0032D5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D57418C24D00CBE0032D5CC /* Assets.xcassets */; };
 		6D57419024D00CBE0032D5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D57418E24D00CBE0032D5CC /* LaunchScreen.storyboard */; };
+		6D57419C24D0927B0032D5CC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57419B24D0927B0032D5CC /* OnboardingViewController.swift */; };
+		6D57419E24D0B2330032D5CC /* MakeBreakControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57419D24D0B2330032D5CC /* MakeBreakControllerViewController.swift */; };
+		6DD8397924D1797600EC74D2 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8397824D1797600EC74D2 /* Session.swift */; };
+		6DD8397B24D17A1F00EC74D2 /* SessionManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8397A24D17A1F00EC74D2 /* SessionManagerDelegate.swift */; };
+		6DD8397D24D1906000EC74D2 /* CountDownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8397C24D1906000EC74D2 /* CountDownTimer.swift */; };
+		6DD8398224D1A04300EC74D2 /* Break.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8398124D1A04300EC74D2 /* Break.swift */; };
+		6DD8398624D1A30C00EC74D2 /* BreakManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8398524D1A30C00EC74D2 /* BreakManagerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D57418024D00CBC0032D5CC /* Kaktus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaktus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D57418324D00CBC0032D5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D57418524D00CBC0032D5CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6D57418724D00CBC0032D5CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D57418724D00CBC0032D5CC /* SessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
 		6D57418A24D00CBC0032D5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D57418C24D00CBE0032D5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D57418F24D00CBE0032D5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D57419124D00CBE0032D5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D57419B24D0927B0032D5CC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		6D57419D24D0B2330032D5CC /* MakeBreakControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeBreakControllerViewController.swift; sourceTree = "<group>"; };
+		6DD8397824D1797600EC74D2 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		6DD8397A24D17A1F00EC74D2 /* SessionManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManagerDelegate.swift; sourceTree = "<group>"; };
+		6DD8397C24D1906000EC74D2 /* CountDownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownTimer.swift; sourceTree = "<group>"; };
+		6DD8398124D1A04300EC74D2 /* Break.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Break.swift; sourceTree = "<group>"; };
+		6DD8398524D1A30C00EC74D2 /* BreakManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakManagerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,69 @@
 		6D57418224D00CBC0032D5CC /* Kaktus */ = {
 			isa = PBXGroup;
 			children = (
+				6DD8397E24D19D9100EC74D2 /* Break */,
+				6DD8397524D1791E00EC74D2 /* Session */,
 				6D57418324D00CBC0032D5CC /* AppDelegate.swift */,
-				6D57418524D00CBC0032D5CC /* SceneDelegate.swift */,
-				6D57418724D00CBC0032D5CC /* ViewController.swift */,
 				6D57418924D00CBC0032D5CC /* Main.storyboard */,
 				6D57418C24D00CBE0032D5CC /* Assets.xcassets */,
 				6D57418E24D00CBE0032D5CC /* LaunchScreen.storyboard */,
 				6D57419124D00CBE0032D5CC /* Info.plist */,
+				6D57419B24D0927B0032D5CC /* OnboardingViewController.swift */,
 			);
 			path = Kaktus;
+			sourceTree = "<group>";
+		};
+		6DD8397524D1791E00EC74D2 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				6DD8397724D1793300EC74D2 /* Controller */,
+				6DD8397624D1792A00EC74D2 /* Model */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		6DD8397624D1792A00EC74D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DD8397824D1797600EC74D2 /* Session.swift */,
+				6DD8397A24D17A1F00EC74D2 /* SessionManagerDelegate.swift */,
+				6DD8397C24D1906000EC74D2 /* CountDownTimer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DD8397724D1793300EC74D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D57418724D00CBC0032D5CC /* SessionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6DD8397E24D19D9100EC74D2 /* Break */ = {
+			isa = PBXGroup;
+			children = (
+				6DD8398024D19DC100EC74D2 /* BreakModel */,
+				6DD8397F24D19D9900EC74D2 /* BreakController */,
+			);
+			path = Break;
+			sourceTree = "<group>";
+		};
+		6DD8397F24D19D9900EC74D2 /* BreakController */ = {
+			isa = PBXGroup;
+			children = (
+				6D57419D24D0B2330032D5CC /* MakeBreakControllerViewController.swift */,
+			);
+			path = BreakController;
+			sourceTree = "<group>";
+		};
+		6DD8398024D19DC100EC74D2 /* BreakModel */ = {
+			isa = PBXGroup;
+			children = (
+				6DD8398124D1A04300EC74D2 /* Break.swift */,
+				6DD8398524D1A30C00EC74D2 /* BreakManagerDelegate.swift */,
+			);
+			path = BreakModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D57418824D00CBC0032D5CC /* ViewController.swift in Sources */,
+				6DD8397924D1797600EC74D2 /* Session.swift in Sources */,
+				6DD8397D24D1906000EC74D2 /* CountDownTimer.swift in Sources */,
+				6DD8397B24D17A1F00EC74D2 /* SessionManagerDelegate.swift in Sources */,
+				6DD8398224D1A04300EC74D2 /* Break.swift in Sources */,
+				6D57419E24D0B2330032D5CC /* MakeBreakControllerViewController.swift in Sources */,
+				6D57418824D00CBC0032D5CC /* SessionViewController.swift in Sources */,
+				6D57419C24D0927B0032D5CC /* OnboardingViewController.swift in Sources */,
+				6DD8398624D1A30C00EC74D2 /* BreakManagerDelegate.swift in Sources */,
 				6D57418424D00CBC0032D5CC /* AppDelegate.swift in Sources */,
-				6D57418624D00CBC0032D5CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
