@@ -5,16 +5,11 @@
         "color-space" : "srgb",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0.369",
-          "green" : "0.424",
-          "red" : "0.110"
+          "blue" : "0x93",
+          "green" : "0x8E",
+          "red" : "0x8E"
         }
       },
-      "display-gamut" : "sRGB",
-      "idiom" : "universal"
-    },
-    {
-      "display-gamut" : "display-P3",
       "idiom" : "universal"
     }
   ],

@@ -54,7 +54,7 @@ class SessionViewController: UIViewController, UIPickerViewDataSource,UIPickerVi
          
         let selectedPickerRow=pickerView.selectedRow(inComponent: 0)
         let selectedDuration=durations[selectedPickerRow]
-        sessionManager.startSession(session: Session(durationInSeconds: selectedDuration))//not a minutes
+        sessionManager.startSession(session: Session(durationInSeconds: selectedDuration, startDate: Date()))//not a minutes
     }
     
     @IBAction func didGiveUpButton() {

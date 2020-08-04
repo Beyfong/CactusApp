@@ -34,6 +34,7 @@ class SessionManager{
             self.Delegate.showTimeLeft(secondsLeft:secondsLeft)
             
             if secondsLeft==0{
+                SessionsStorage.shared.addSession(session)
                 
                 self.Delegate.showSessionEnded( )
                 
